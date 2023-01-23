@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>This is a FORM</title>
+  </head>
+
+  <body>
+    <h1>Registeration Form</h1>
+    <hr />
+    <div id="reg-form">
+      <form>
+        <div>
+          <h3><strong>Enter your name</strong></h3>
+
+          <label for="first-name"><strong>First Name:</strong></label>
+          <input
+            type="text"
+            name="first-name"
+            placeholder="First Name"
+            required>
+          <br />
+          <br />
+
+          <label for="last-name"><strong>Last Name:</strong></label>
+          <input
+            type="text"
+            name="last-name"
+            placeholder="Last Name"
+            required
+          />
+          <br />
+          <br />
+        </div>
+
+        <div>
+          <h3><strong>Select gender</strong></h3>
+
+          <label for="gender">Male</label>
+          <input type="radio" name="gender" value="choice-1" />
+          <br />
+          <br />
+
+          <label for="gender">Female</label>
+          <input type="radio" name="gender" value="choice-2" />
+        </div>
+        <br />
+
+        <div>
+          <label for="email"><b>Email:</b></label>
+          <input type="email" name="email" placeholder="Email" required /><br />
+          <br />
+
+          <label for="password"><b>Password:</b></label>
+          <input
+            type="password"
+            name="password"
+            placeholder="Enter the Password"
+            required
+          />
+          <br />
+          <br />
+        </div>
+        <br />
+        <div><b>Date:</b><input type="date" name="" id="" /></div>
+        <br />
+        <div>
+          <label for="Dist"><b>District:</b></label>
+          <select name="Dist" id="Dist">
+            <option value=""></option>
+            <option value="mumbai">Mumbai</option>
+            <option value="pune">Pune</option>
+            <option value="thane">Thane</option>
+            <option value="ratnagiri">Ratnagiri</option>
+            <option value="sindhudurg">Sindhudurg</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <b>Write about yourself:</b><br />
+          <textarea name="myText" id="" cols="80" rows="10"></textarea>
+        </div>
+
+        <div>
+          <label for="agree">I agree to all the conditions</label>
+          <input type="checkbox" name="agree" />
+          <br /><br />
+
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <hr />
+  </body>
+</html>
